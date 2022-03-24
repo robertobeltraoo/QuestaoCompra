@@ -21,7 +21,7 @@ public class QuestaoDois {
 
         Compra compra = new Compra();
         
-        JOptionPane.showMessageDialog(null, "Itens disponiveis:\n"+ "Sabao estoque: " + sabao.getQntEstoque() + ".\nEscova estoque: " + escova.getQntEstoque() + ".\nRefrigerante estoque: " + refrigerante.getQntEstoque()+".");
+        JOptionPane.showMessageDialog(null, "Itens disponiveis:\nSabao estoque: " + sabao.getQntEstoque() + ".\nEscova estoque: " + escova.getQntEstoque() + ".\nRefrigerante estoque: " + refrigerante.getQntEstoque()+".");
         
         int contadorSabao = 0;// nao consegui trabalhar com arrays por isso fiz dessa forma
         double valorSabao = 0;
@@ -92,7 +92,7 @@ public class QuestaoDois {
         }else{
             JOptionPane.showMessageDialog(null, "Nenhum produto foi comprado.");
         }
-        JOptionPane.showMessageDialog(null, "Sabao estoque: " + sabao.getQntEstoque() + ".\nEscova estoque: " + escova.getQntEstoque() + ".\nRefrigerante estoque: " + refrigerante.getQntEstoque()+".");
+        JOptionPane.showMessageDialog(null, "Itens que sobraram no estoque:\nSabao estoque: " + sabao.getQntEstoque() + ".\nEscova estoque: " + escova.getQntEstoque() + ".\nRefrigerante estoque: " + refrigerante.getQntEstoque()+".");
     }
     
 }
